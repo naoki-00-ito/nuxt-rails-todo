@@ -25,6 +25,7 @@ export default {
 
   methods: {
     handleSubmit() {
+      this.$emit("submit", this.title);
       this.title = "";
     }
   }
