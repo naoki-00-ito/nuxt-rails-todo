@@ -10,7 +10,7 @@ Node.js version: 15.12.0
 
 ## Nuxt 起動手順
 
-### fromt ディレクトリへ移動
+### front ディレクトリへ移動
 `cd front`
 
 ### サーバーを起動
