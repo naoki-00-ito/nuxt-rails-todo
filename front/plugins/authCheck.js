@@ -6,7 +6,7 @@ const authCheck = ({ store, redirect }) => {
     if (user) {
       const { data } = await axios.get('/v1/users', {
         params: {
-          uld: user.uid,
+          uid: user.uid,
         },
       });
       console.log("ログインしているユーザー:", data);
