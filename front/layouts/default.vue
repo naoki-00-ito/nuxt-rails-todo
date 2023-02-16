@@ -1,6 +1,7 @@
 <template>
   <v-app dark>
     <div>
+      <Success />
       <Loading />
     </div>
 
@@ -93,6 +94,7 @@
 </template>
 
 <script>
+import Success from "@/components/Success";
 import Loading from "@/components/Loading";
 
 export default {
@@ -109,6 +111,7 @@ export default {
   },
 
   components: {
+    Success,
     Loading
   },
 
